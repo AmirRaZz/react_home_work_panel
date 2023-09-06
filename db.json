@@ -1,0 +1,117 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "name": "علی",
+      "lastName": "میثاقی",
+      "studentCode": 58954257,
+      "field": "کامپیوتر"
+    },
+    {
+      "id": 2,
+      "name": "رضا",
+      "lastName": "توکلی",
+      "studentCode": 5855567,
+      "field": "شیمی"
+    },
+    {
+      "id": 3,
+      "name": "احمد",
+      "lastName": "حیدری",
+      "studentCode": 5845567,
+      "field": "روانشناسی"
+    },
+    {
+      "id": 4,
+      "name": "محمد",
+      "lastName": "آشوری",
+      "studentCode": 5878567,
+      "field": "علوم"
+    },
+    {
+      "id": "157",
+      "name": "عباس",
+      "lastName": "رضایی",
+      "studentCode": "55067010",
+      "field": "اقتصاد"
+    }
+  ],
+  "lessons": [
+    {
+      "id": 1,
+      "name": "جاوا اسکریپت",
+      "lessonCode": 5040,
+      "unit": 3,
+      "teacher": "مهدی عباسی",
+      "taken": false
+    },
+    {
+      "id": 2,
+      "name": "پایتون",
+      "lessonCode": 5020,
+      "unit": 3,
+      "teacher": "محمود مومنی",
+      "taken": false
+    },
+    {
+      "id": 3,
+      "name": "ری اکت",
+      "lessonCode": 5000,
+      "unit": 2,
+      "teacher": "علی شمس",
+      "taken": false
+    },
+    {
+      "id": "114",
+      "name": "تایپ اسکریپت",
+      "lessonCode": "5054",
+      "unit": "2",
+      "teacher": "امیر رحمتی",
+      "taken": false
+    }
+  ],
+  "teachers": [
+    {
+      "id": 1,
+      "name": "مهدی",
+      "lastName": "عباسی",
+      "teacherCode": 6040,
+      "lessons": [
+        "جاوا اسکریپت",
+        "پایتون",
+        "ویو جی اس",
+        "نکست جی اس"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "علی",
+      "lastName": "مرادی",
+      "teacherCode": 6000,
+      "lessons": [
+        "ویو جی اس",
+        "نکست جی اس"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "احمد",
+      "lastName": "نادری",
+      "teacherCode": 6050,
+      "lessons": [
+        "پایتون",
+        "جاوا"
+      ]
+    },
+    {
+      "id": "3856",
+      "name": "اکبر",
+      "lastName": "عابدی",
+      "teacherCode": "5008",
+      "lessons": [
+        "پایتون ",
+        "جاوا"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+@import url("font.css");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "iranyekan";
+}
+
+@layer components{
+  .table__th {
+    @apply border-b-2 border-b-gray-500 font-medium p-3 pr-8 pb-3 text-right;
+  }
+  .table__td {
+    @apply border-b  border-b-gray-300 p-3 pr-8 pb-3 text-right;
+  }
+  .badge {
+    @apply whitespace-nowrap px-3 py-1 rounded-xl;
+  }
+  .badge--success {
+    @apply bg-green-600 text-white;
+  }
+  .badge--error {
+    @apply bg-rose-600 text-white;
+  }
+  .textField__input {
+    @apply w-full py-3 px-4 rounded-xl bg-gray-100 border border-gray-100 outline-none duration-200 transition-all ease-in-out hover:border-blue-300 focus:outline-none focus:border-blue-300 focus:shadow-indigo-600 focus:bg-white;
+  }
+  .btn {
+    @apply px-2 py-1 font-bold rounded-2xl transition-all duration-300;
+  }
+  .btn--primary {
+    @apply px-4 py-3 bg-sky-700 text-white hover:bg-cyan-700 shadow-lg shadow-cyan-200;
+  }
+}

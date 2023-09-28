@@ -1,5 +1,5 @@
 import { useMutation, useQuery } from "@tanstack/react-query";
-import { addStudent, deleteStudent, getStudents } from "../services/studentService";
+import { addStudent, deleteStudent, getStudents } from "@/services/studentService";
 
 export const useGetStudents=()=>
     useQuery({

@@ -3,7 +3,7 @@ import {
     addTeacher,
     deleteTeacher,
     getTeachers,
-} from "../services/teacherService";
+} from "@/services/teacherService";
 
 export const useGetTeachers = () =>
     useQuery({

@@ -1,8 +1,8 @@
 import { HiPlusCircle } from "react-icons/hi";
 import { Link } from "react-router-dom";
+import { useGetLessons } from "@/hooks/useLessons";
+import Loading from "@/common/Loading";
 import Table from "./LessonTable";
-import { useGetLessons } from "../../hooks/useLessons";
-import Loading from "../../common/Loading";
 
 const Lessons = () => {
     const { data, isLoading } = useGetLessons();

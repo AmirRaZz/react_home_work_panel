@@ -1,7 +1,7 @@
 import { HiTrash } from "react-icons/hi";
-import { toPersianNumbers } from "../../utils/toPersianNumbers";
-import { teacherListTableHeads } from "../../constants/tableHeads";
-import { useRemoveTeacher } from "../../hooks/useTeachers";
+import { toPersianNumbers } from "@/utils/toPersianNumbers";
+import { teacherListTableHeads } from "@/constants/tableHeads";
+import { useRemoveTeacher } from "@/hooks/useTeachers";
 import { useQueryClient } from "@tanstack/react-query";
 import { toast } from "react-hot-toast";
 

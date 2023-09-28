@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
 import { HiPlusCircle } from "react-icons/hi";
 import Table from "./TeacherTable";
-import { useGetTeachers } from "../../hooks/useTeachers";
-import Loading from "../../common/Loading";
+import { useGetTeachers } from "@/hooks/useTeachers";
+import Loading from "@/common/Loading";
 
 const Teacher = () => {
     const { data, isLoading } = useGetTeachers();

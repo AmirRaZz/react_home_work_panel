@@ -1,9 +1,9 @@
 import { HiTrash } from "react-icons/hi";
-import { toPersianNumbers } from "../../utils/toPersianNumbers";
 import { userListTableHeads } from "../../constants/tableHeads";
 import { useQueryClient } from "@tanstack/react-query";
-import { useRemoveStudent } from "../../hooks/useStudents";
 import { toast } from "react-hot-toast";
+import { toPersianNumbers } from "@/utils/toPersianNumbers";
+import { useRemoveStudent } from "@/hooks/useStudents";
 
 function Table({ users }) {
     const { mutateAsync } = useRemoveStudent();

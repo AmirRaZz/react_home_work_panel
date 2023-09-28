@@ -1,10 +1,10 @@
 import { HiMinus, HiPlusCircle, HiTrash } from "react-icons/hi";
-import { lessonListTableHeads } from "../../constants/tableHeads";
-import { toPersianNumbers } from "../../utils/toPersianNumbers";
-import { useRemoveLesson } from "../../hooks/useLessons";
+import { lessonListTableHeads } from "@/constants/tableHeads";
+import { useRemoveLesson } from "@/hooks/useLessons";
 import { useQueryClient } from "@tanstack/react-query";
 import { toast } from "react-hot-toast";
 import { useState } from "react";
+import { toPersianNumbers } from "@/utils/toPersianNumbers";
 
 function Table({ data }) {
 

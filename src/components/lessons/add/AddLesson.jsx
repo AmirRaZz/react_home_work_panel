@@ -1,6 +1,6 @@
 import { useState } from "react";
-import LessonForm from "../../../common/LessonForm";
-import { useAddLesson } from "../../../hooks/useLessons";
+import LessonForm from "@/common/LessonForm";
+import { useAddLesson } from "@/hooks/useLessons";
 import { useNavigate } from "react-router-dom";
 import { toast } from "react-hot-toast";
 

@@ -14,7 +14,7 @@ module.exports = {
     rules: {
         "no-console": "warn",
         "react/prop-types": "off",
-        "react/self-closing-comp": "warn",
+        "react/self-closing-comp": "off",
         "react/react-in-jsx-scope": "off",
         "react-refresh/only-export-components": [
             "warn",

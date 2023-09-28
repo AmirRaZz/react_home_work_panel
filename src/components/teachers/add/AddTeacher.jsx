@@ -1,8 +1,8 @@
 import { useNavigate } from "react-router-dom";
 import { useState } from "react";
 import { toast } from "react-hot-toast";
-import { useAddTeacher } from "../../../hooks/useTeachers";
-import TeacherFrom from "../../../common/TeacherFrom";
+import { useAddTeacher } from "@/hooks/useTeachers";
+import TeacherFrom from "@/common/TeacherFrom";
 const AddForm = () => {
 
     const { isLoading, mutateAsync } = useAddTeacher();

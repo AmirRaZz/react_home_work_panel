@@ -1,8 +1,8 @@
-import { useGetStudents } from "../../hooks/useStudents";
-import Loading from "../../common/Loading";
 import Table from "./UserTable";
 import { Link } from "react-router-dom";
 import { HiPlusCircle } from "react-icons/hi";
+import { useGetStudents } from "@/hooks/useStudents";
+import Loading from "@/common/Loading";
 const Students = () => {
     const { data, isLoading } = useGetStudents();
 
